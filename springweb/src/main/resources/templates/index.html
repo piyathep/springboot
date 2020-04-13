@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h2>CUSTOMER LIST</h2>
+        <div th:each="customer: ${customers}">
+            <span th:text="${customer}"></span>
+        </div>
+</div>
+
+</body>
+</html>

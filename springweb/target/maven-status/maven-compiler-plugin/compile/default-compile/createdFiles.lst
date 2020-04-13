@@ -1,0 +1,4 @@
+com\gable\springweb\entity\Customer.class
+com\gable\springweb\repository\CustomerRepository.class
+com\gable\springweb\SpringwebApplication.class
+com\gable\springweb\WebController.class
